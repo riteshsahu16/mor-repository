@@ -1,0 +1,28 @@
+Git Basics
+
+VCS : Version Control System
+Commands
+
+git init : initialize folder for vcs
+
+git config --global user.name "ritesh"
+git config --global user.email "ritesh@email.com"
+
+git status : gives info. about untracked/modified files
+
+git add "file" : add "file" to staging area
+git add . : add all files to staging are
+
+git commit -m "Msg" : to commit changes and add message to it.
+
+git log : shows commit history
+
+git branch -anotherbranch
+git checkout -b anotherbranch : select/Goto "anotherbranch"
+
+git remote add origin "repo url"
+git push origin main
+git pull origin main
+ 
+git checkout <commitid> : to go to a specific commit
+
